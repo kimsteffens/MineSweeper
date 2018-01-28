@@ -4,9 +4,13 @@ A brief overview of a MineSweeper game created in Java.
 ## Files
 **Source files**:
 MineSweeper.java: sets up the game and GUI, first asking the user how large the board should be and how many mines should be in the game.
+
 MineSweeperGame.java: contains the primary logic and code for game progression.
+
 MineSweeperPanel.java: the GUI and button functionality.
+
 GameStatus.java: an enum containing Won, Lost, and NotOverYet as possible statuses for the game.
+
 Cell.java: a class to contain cell information. The game board is created from Cell objects.
 
 **Image files**:
